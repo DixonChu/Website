@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Barlow:300&display=swap');
+
+html, body {
+  background: url(images/blake-connally-B3l0g6HLxr8-unsplash.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
+  background-color: #193853;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Arvo', serif; */
+  font-family: 'Barlow', sans-serif; 
+}
+
+.bg-dark {
+  transition: 750ms ease;
+  background: transparent !important;
+}
+
+.bg-dark.scrolled{
+  background: white !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+}
+
+a, li {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #e0e8f1;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: rgb(80, 80, 80);
+  color: rgb(209, 202, 202);
+}
+
+
+hr{
+  height: 1px;
+  color: #3a8cdd;
+  background-color: #69b8ec;
+  border: #c2d6e9;
+}
+
+div.center {
+  text-align: center;
+}
+
+.welcomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Header */
+#header {
+    width: 100%;
+    float: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
+/* Project */
+.projectCSS {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer {
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  color: white;
+  text-align: center;
+}
+
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+
+.aboutParagraph {
+  font-size: 18px;
+}
